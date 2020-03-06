@@ -41,7 +41,7 @@ main(void) {
 
   //Iterate the program
   for (machine->PC = 0; running ; machine->PC++) {
-	#if IN_DEBUG > 0
+    #if IN_DEBUG > 0
     int i;
 
     printf("Pid = %ld\n",(long)getpid());
