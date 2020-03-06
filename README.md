@@ -17,3 +17,7 @@ $ make
 * **LABEL**   Set label
 * **PRINT**   Print R
 * **HLT**     HLT
+
+Into the virtual_machine/testprogram.h there is a example file that you can execute after make like this:
+
+$ ./virtual_machine
